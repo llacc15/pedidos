@@ -24,4 +24,4 @@ CREATE TABLE IF NOT EXISTS pedidos (
 
 -- Insertar el administrador por defecto
 INSERT INTO usuarios (nombre, correo, contraseña, rol) 
-VALUES ('Admin', 'yamatoalbear@gmail.com', SHA2('Ningu@ng1.2.3', 256), 'admin');
+VALUES ('Admin', 'prueba12@gmail.com', SHA2('1234@', 256), 'admin');
