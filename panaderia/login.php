@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION["email"] = $row["email"];
             $_SESSION["rol"] = $row["rol"];
 
-            if ($email == "yamatoalbear@gmail.com" && $password == "Ningu@ng1.2.3") {
+            if ($email == "prueba12@gmail.com" && $password == "1234@") {
                 $_SESSION["rol"] = "admin";
                 header("Location: pages/admin.php");
             } else {
